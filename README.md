@@ -19,6 +19,9 @@ IPv4 Address: 172.20.6.148
 Subnet Mask: 255.255.254.0
 Default Gateway: 172.20.6.1
 
+# Screenshot
+<img width="667" height="131" alt="1️⃣ ipconfig" src="https://github.com/user-attachments/assets/bdf7db46-8a81-45ff-85a7-f35c5a569d74" />
+
 # Ping Test Results
 Ping to Router (172.20.6.1)
 
@@ -30,6 +33,7 @@ Packet Loss: 0%
 
 Result: Successful
 
+# Screenshot
 <img width="495" height="207" alt="2️⃣ ping your router" src="https://github.com/user-attachments/assets/091d9376-352b-4de9-8ab0-bc88216040e3" />
 
 
@@ -45,6 +49,10 @@ Packet Loss: 0%
 
 Result: Successful
 
+# Screenshot
+<img width="497" height="212" alt="3️⃣ ping 8 8 8 8" src="https://github.com/user-attachments/assets/db790693-464e-444b-bf3d-64ad6adad6a1" />
+
+
 This confirms that internet connectivity is working properly.
 
 ## Ping to google.com
@@ -56,6 +64,10 @@ Packets Received: 4
 Packet Loss: 0%
 
 Result: Successful
+
+ # Screenshot
+<img width="539" height="218" alt="4️⃣ ping google com" src="https://github.com/user-attachments/assets/79a31678-2eb4-44f9-9e96-b2fade727cf7" />
+
 
 This confirms that DNS resolution is functioning correctly.
 
