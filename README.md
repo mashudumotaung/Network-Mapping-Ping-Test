@@ -13,7 +13,7 @@ My home network consists of:
 
 All devices are connected wirelessly through the router, which provides internet access.
 
-2. IP Configuration Results
+# IP Configuration Results
 
 IPv4 Address: 172.20.6.148
 Subnet Mask: 255.255.254.0
