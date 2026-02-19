@@ -30,6 +30,9 @@ Packet Loss: 0%
 
 Result: Successful
 
+<img width="495" height="207" alt="2️⃣ ping your router" src="https://github.com/user-attachments/assets/091d9376-352b-4de9-8ab0-bc88216040e3" />
+
+
 This confirms that the laptop can communicate with the router on the local network.
 
 # Ping to 8.8.8.8 (Google DNS)
