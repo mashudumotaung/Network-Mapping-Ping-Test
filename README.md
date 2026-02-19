@@ -1,9 +1,9 @@
 # Network-Mapping-Ping-Test
 Network Mapping & Ping Test Report
-** Network Overview
+## Network Overview
 <img width="1536" height="1024" alt="Network Diagram" src="https://github.com/user-attachments/assets/eea74293-6dd4-4de0-a346-8b1c4478e720" />
 
-** My home network consists of:
+## My home network consists of:
 
 1 Router
 
