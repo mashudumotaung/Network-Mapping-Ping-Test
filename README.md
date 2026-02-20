@@ -1,4 +1,3 @@
-# Network-Mapping-Ping-Test
 # Network Mapping & Ping Test
 
 # Course 2: The Bits and Bytes of Computer Networking
