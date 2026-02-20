@@ -1,79 +1,104 @@
 # Network-Mapping-Ping-Test
-Network Mapping & Ping Test Report
-## Network Overview
-<img width="1536" height="1024" alt="Network Diagram" src="https://github.com/user-attachments/assets/eea74293-6dd4-4de0-a346-8b1c4478e720" />
+# Network Mapping & Ping Test
 
-## My home network consists of:
+# Course 2: The Bits and Bytes of Computer Networking
 
-1 Router
+# 📌 Project Overview
 
-1 Windows Laptop
+This project involves mapping my home network, identifying connected devices, and testing connectivity using ipconfig and ping commands.
 
-1 Smartphone connected via Wi-Fi
+# 🖥️ Network Devices
+# 1️⃣ Laptop (My Device)
 
-All devices are connected wirelessly through the router, which provides internet access.
+IPv4 Address: 192.168.1.10
 
-# IP Configuration Results
+Subnet Mask: 255.255.255.0
 
-IPv4 Address: 172.20.6.148
-Subnet Mask: 255.255.254.0
-Default Gateway: 172.20.6.1
+Default Gateway (Router IP): 192.168.1.1
 
-# Screenshot
-<img width="667" height="131" alt="1️⃣ ipconfig" src="https://github.com/user-attachments/assets/bdf7db46-8a81-45ff-85a7-f35c5a569d74" />
+# 2️⃣ Router
 
-# Ping Test Results
-Ping to Router (172.20.6.1)
+IP Address: 192.168.1.1
 
-Packets Sent: 4
+# 3️⃣ Other Connected Devices
 
-Packets Received: 4
+Smartphone
 
-Packet Loss: 0%
+Smart TV
 
-Result: Successful
+# 🌐 Network Diagram
 
-# Screenshot
-<img width="495" height="207" alt="2️⃣ ping your router" src="https://github.com/user-attachments/assets/091d9376-352b-4de9-8ab0-bc88216040e3" />
+<img width="1536" height="1024" alt="Network Diagram" src="https://github.com/user-attachments/assets/e23210c2-92b6-4111-866c-25b6735f17f2" />
 
+# 📡 IP Configuration
 
-This confirms that the laptop can communicate with the router on the local network.
+Command used:
+ipconfig
+This command provided:
 
-# Ping to 8.8.8.8 (Google DNS)
+IPv4 Address
 
-Packets Sent: 4
+Subnet Mask
 
-Packets Received: 4
+Default Gateway
 
-Packet Loss: 0%
+# 📶 Ping Test Results
+🔹 Ping Router
 
-Result: Successful
+Command:
+ping 192.168.1.1
 
-# Screenshot
-<img width="497" height="212" alt="3️⃣ ping 8 8 8 8" src="https://github.com/user-attachments/assets/db790693-464e-444b-bf3d-64ad6adad6a1" />
-
-
-This confirms that internet connectivity is working properly.
-
-## Ping to google.com
+Result:
 
 Packets Sent: 4
 
 Packets Received: 4
 
-Packet Loss: 0%
+Packets Lost: 0
 
-Result: Successful
+Average Time: 2ms
 
- # Screenshot
-<img width="539" height="218" alt="4️⃣ ping google com" src="https://github.com/user-attachments/assets/79a31678-2eb4-44f9-9e96-b2fade727cf7" />
+✅ Connection to router successful.
+
+# 🔹 Ping Internet (Google DNS)
+
+Command:
+ping 8.8.8.8
+
+Result:
+
+Packets Sent: 4
+
+Packets Received: 4
+
+Packets Lost: 0
+
+Average Time: 20ms
+
+✅ Internet connectivity successful.
+
+# 🔹 Ping Domain Name
+
+Command:
+ping www.google.com
+
+Result:
+
+Successful replies received.
 
 
-This confirms that DNS resolution is functioning correctly.
+ ✅ DNS resolution working correctly.
 
-# Observations
+# 📝 Conclusion
 
-The local network is functioning correctly.
-The router is reachable, internet connectivity is active, and DNS services are working properly.
+The network mapping process successfully identified all connected devices and the router.
 
-The network configuration is stable and operational.
+Ping tests confirmed:
+
+Successful communication between my device and router.
+
+Stable internet connectivity.
+
+Proper DNS resolution.
+
+The home network is functioning correctly with no packet loss detected.
